@@ -1,0 +1,219 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-image: url(./img/macbook.jpg);
+    /* overflow: hidden;
+    padding: 0 100px; */
+}
+
+
+.cool{
+    color: white;
+}
+
+.nav-item{
+    margin: 5px 35px;
+}
+
+.container-text-center{
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.text{
+    font-size: 40px;
+    color: white;
+}
+
+/* .section-1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.section-1-paragraph {
+    font-size: 200PX;
+    color: white;
+    font-weight: 500;
+    line-height: 180px;
+
+}
+
+.section-1-sub-paragraph {
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    width: 550px;
+    line-height: 30px;
+} */
+
+
+.PORTFOLIO{
+    font-weight: 500;
+    font-size: 180px;
+    color: white;
+    line-height:130px;
+}
+
+.para{
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.col3{
+    color: white;
+    margin-top: 300px;
+}
+
+
+.col4{
+    color: white;
+    margin-top: 300px;
+}
+.col5{
+    margin-top: 300px;
+    margin-left: 300px;
+    padding: 15px 25px;
+    width: 240px;
+    border-radius: 10px;
+    border: none;
+}
+
+.show{
+    text-decoration: none;
+}
+
+
+.form-label{
+    color: white;
+}
+
+.mb-3{
+   margin: auto;
+   width: 500px;
+}
+
+.form-select{
+    margin: auto;
+    width: 500px;
+}
+
+#submit{
+    margin: auto;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 360px) and (max-width: 812px) {
+    body {
+      padding: 0 20px; 
+    }
+  
+    .container-text-center {
+      margin-left: 15px; 
+      margin-top: 50px; 
+    }
+
+    .PORTFOLIO{
+        font-size: 40px;
+        line-height: normal;
+    }
+
+    .col3{
+        margin-top: 50px;
+    }
+    
+  
+    .col5{
+        margin-top: 30px;
+        margin-left: 8px;
+        margin-bottom: 20px;
+    }
+
+    .mb-3{
+        width: 300px;
+        margin-left: 20px;
+     }
+
+     .form-select{
+        width: 300px;
+        margin-left: 20px;
+     }
+
+     #submit{
+        margin-left: 25px;
+     }
+  }
+
+@media screen and (min-width:430px) and (max-width:932px) {
+    .PORTFOLIO{
+        font-size:50px;
+    }
+
+
+}
+  
+/* 
+@media screen and (max-width:932px){
+    .mb-3{
+        width: 550px;
+        margin-left: 20px;
+     }
+
+     .form-select{
+        width: 300px;
+        margin-left: 20px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+     }
+
+} */
+
+
+@media screen and (min-width: 800px) and (max-width:1180px){
+     .container-text-center{
+        margin-left: 0px;
+       
+     }
+
+     .PORTFOLIO{
+        font-size:100px;
+        line-height: normal;
+     }
+
+     .col3{
+        margin-top: 50px;
+    }
+    
+
+     .col5{
+        margin-top: 50px;
+        margin-left: 0px;
+     }
+
+  
+}
+
+
+@media screen and (min-width: 912px) and (max-width:1368px){
+    .container-text-center{
+        margin-left: 0px;
+    }
+
+    .PORTFOLIO{
+        font-size: 50px;
+    }
+}
+
